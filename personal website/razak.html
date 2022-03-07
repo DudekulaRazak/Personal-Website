@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery-3.6.0.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Razak Dudekula</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+     <b>  Razak Dudekula</b> 
+    </header>
+    <section id="banner">
+        <img src="footer-img.png" alt="logo" class="logo">
+        <div class="greet">
+            <h1>Hello People,</h1>
+            <p>I am Razak Dudekula and this is my personal website.</p>
+        </div>
+        <div class="bannerbtn">
+            <a href="#aboutme" class="btn">Know Me</a>
+            <a href="#" class="btn">Read more</a>
+        </div>    
+    </section>
+    <section id="aboutme">
+        <p id="KnowMe">"I am a part time freelancer and I work on frontend web development using css and html. I aslo work on content writing and copy writing too.
+           I also analyize stocks and planning to invest on stocks. Currently I am working on blogging and digging out more in web development
+           . I am also planning to start a youtube channel and main motive of starting a career in youtube is too develop and teach the skills which 
+           I know. The main reason to develop this website is to develop my portfolio. So, I am out of words now and ending this short paragraph here."
+        </p>
+    </section>
+    <div id="sidenav">
+        <nav>
+        <ul>
+           <li><a href="#"><b>HOME</b></a></li>
+           <li><a href="#FEATURES"><b>WHY ME</b></a></li>
+           <li><a href="#hire-me"><b>HIRE ME</b></a></li>
+           <li><a href="#contact"><b>CONTACT</b></a></li>
+           <li><a href="#"><b>PORTFOLIO</b></a></li>
+        </ul>
+        </nav>
+      </div>
+      <div id="menubtn">
+          <img src="/images/menu.png" alt="menu" id="menu">
+      </div>
+
+      <script>
+            var menubtn= document.getElementById("menubtn")
+        var sidenav= document.getElementById("sidenav")
+        var menu= document.getElementById("menu")
+
+        sidenav.style.right = "-250px";
+
+        menubtn.onclick = function () {
+            if(sidenav.style.right == "-250px"){
+                sidenav.style.right = "0";
+                menu.src ="images/close.png";
+            }
+            else{
+                sidenav.style.right = "-250px";
+                menu.src = "images/menu.png";
+            }
+        }
+    </script>    
+                                           <!--features-->
+            <section id="FEATURES">
+              <div class="title">
+                 <h1>WHY CHOOSE ME</h1>   
+                <div class="feature-box">
+                   <ul>
+                     <li><i class="fa fa-clock-o" aria-hidden="true"> </i> I work on daily basis hours</li>                 
+                     <li><i class="fa fa-check-circle" aria-hidden="true"> </i> I maintain 90%+ accuracy</li>                 
+                     <li><i class="fa fa-calendar" aria-hidden="true"> </i > I deliver work on time</li>                 
+                     <li><i class="fa fa-inr" aria-hidden="true"> </i> I work at cheaper prices </li> 
+                   </ul>    
+                   <img class="fleximg" src="me.jpg" alt="me here">
+               </div> 
+             </div>
+      </section>
+                                                 <!--hire me-->
+      <section id="hire-me">
+        <div class="title">
+            <h1>HIRE ME</h1>
+        </div>    
+        <p>Hire me through freelancing app @razakdudekula and mail me<br> @drazak1234@gmail.com </p><br>
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam unde amet libero quaerat?
+        Necessitatibus accusantium magni tempora, officia architecto dolor eligendi nobis minima unde rem
+        repellendus error aperiam voluptates amet consectetur, optio soluta? Ab neque totam eaque aut eius 
+        sit suscipit, deleniti quaerat earum debitis error voluptatem exercitationem, saepe perferendis dolore 
+        vel nulla iure quis et nam. Voluptas libero molestiae eaque veniam non perspiciatis perferendis consequuntur 
+        modi architecto. Placeat eveniet, hic tempore recusandae odit cupiditate? Ipsam quis illum, eveniet quibusdam 
+        provident cumque sapiente praesentium,
+        cupiditate eos reiciendis corporis reprehenderit dignissimos debitis ex. Iure ipsum facere amet consequuntur,
+         totam et! Omnis?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ullam ipsa pariatur natus rerum 
+        obcaecati velit, voluptatibus ipsam harum possimus fugiat dolores rem, officia impedit commodi?
+        Suscipit sunt iste dolore!</h4>
+      </section>
+                                                <!--contact-->
+      <section id="contact">
+      <div class="titlecon">
+         <h1>CONTACT</h1> 
+      </div>
+         <p class="contactme">
+             <b>Mail</b>: drazak1234@gmail.com <br>
+             <b>Phone</b> : 7032533569<br>
+             <b>Instagram id</b> : razak_kuttu </p><br>
+             <div class="socialmedia">
+                 <a href="www.facebook.com" target="#"><i class="fa fa-facebook"></i></a>
+                 <a href="www.instagram.com" target="#"><i class="fa fa-instagram"></i></a>
+                 <a href="www.twitter.com" target="#"><i class="fa fa-twitter"></i></a>
+                 <a href="www.youtube.com" target="#"><i class="fa fa-youtube-play"></i></a>
+             </div>
+      </section>
+      <footer>
+          <a href="#">FAQ</a>
+          <a href="#">CONTACT ME</a>
+          <a href="#">TERMS OF USE</a>
+          <a href="#">PRIVACY POLICY</a>
+          <a href="#">REFUND POLICY</a>
+          <a href="#">&copy; 2021 | Razak Dudekula</a>
+      </footer>
+</body>
+</html>

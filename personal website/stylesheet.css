@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    color: #fff;
+    text-align: center;
+    z-index: 4;
+
+    background-color: #fa6a5f;
+}
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.4), #fa6a5f) ,url(razak.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.logo{
+    width :100px;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+.greet{
+    color: #fff;
+    position: absolute;
+    top: 10%;
+    left: 8%;
+}
+.greet h1{
+    font-size: 130px;
+    font-family: 'Kaushan Script', cursive;
+}
+.greet p {
+    font-size: 20px;
+}
+.bannerbtn{
+    text-align: center;
+    margin: 70px;
+    position: absolute;
+    top: 60%;
+    left: 50%; 
+   
+}
+.bannerbtn a{
+   text-decoration: none;
+   color: #fff;
+   border: .5px solid #fff;
+   border-radius: 5px;
+   padding: 10px;
+   margin: 7px;
+}
+.bannerbtn a:hover {
+    color: rgb(0, 0, 0);
+    z-index: -1;
+    background: #fff;
+}
+#aboutme{
+   padding: 20%;
+   background: linear-gradient(rgba(0,0,0,0.4), #fa6a5f) ;
+   font-size: 20px;
+}
+#sidenav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    background: #fa6a5f;
+}
+nav ul li{    
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+#menubtn{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menubtn img{
+    width: 20px;
+}
+@media screen and (max-width:770px){
+    header{
+        text-align: center;
+    }
+    .greet{
+        top: 15%;
+        right: 8% ;
+    }
+    .greet h1{
+        font-size: 50px;
+    }
+    .bannerbtn a{
+        display: block;
+        margin: 20px auto;
+     }
+     .bannerbtn{
+         position: absolute;
+         top: 300px;
+         left: 80px;
+     }
+}
+        /*--features--*/
+#FEATURES{
+    align-items: center;
+    padding: 10%;
+    background: linear-gradient(rgba(0,0,0,0.4),#fa6a5f) ;
+}
+.feature-box{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+.fleximg {
+    width: 30%;
+    border-radius: 20px;
+}
+.feature-box ul{
+    text-align: center;
+}
+.feature-box ul li{
+    padding: 30px;
+    list-style: none;
+}
+@media screen and (max-width:770px){
+    .feature-box{
+        flex-basis: 100%;
+    }
+    .fleximg{
+        width: 100%;
+    }
+}
+                                        /*hire me*/
+.title h1{
+    text-align: center;
+    color: #fff;
+    padding: 3%;
+}
+#hire-me{
+    padding: 8%;
+    background: linear-gradient(rgba(0,0,0,0.4), #fa6a5f) ;
+}
+#hire-me p{
+    padding: 10px;
+    text-align: left;
+    font-weight: bolder;
+    margin-left: 10%;
+}
+#hire-me h4{
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+    font-weight: normal;
+} 
+#contact{
+    padding: 8%;
+    background:linear-gradient(rgba(0,0,0,0.4), #efefef)  ;
+}
+.titlecon{
+    text-align: center;
+    color: #fff;
+}
+#contact p{
+    padding: 10%;
+    text-align: left;
+}
+footer{
+    background-color: rgb(43, 42, 42);
+    padding: 15px;
+}
+footer a{
+    color: #fff;
+    font-style: oblique;    
+    margin-left: 20px;
+    text-decoration:none;
+}
+.mail{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+.contactme{
+    display: block;
+    text-align: left;
+    line-height: 30px;
+}
+.socialmedia{
+    text-align: right;
+}
+.socialmedia .fa{
+    height: 40px;
+    text-align: center;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 3px solid #fa6a5f;
+    border-radius: 6px;
+    color: #fa6a5f;
+    cursor: pointer;
+    transition: .5s;
+}
+.socialmedia .fa:hover{
+    background-color: #fa6a5f;
+    color: #fff;
+    transform: translateY(-7px);
+}
